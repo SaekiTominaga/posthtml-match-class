@@ -1,0 +1,46 @@
+{
+	"name": "@saekitominaga/posthtml-match-class",
+	"version": "1.0.0",
+	"description": "Matching PostHTML nodes by class name",
+	"keywords": [
+	],
+	"homepage": "https://github.com/SaekiTominaga/posthtml-match-class#readme",
+	"bugs": {
+		"url": "https://github.com/SaekiTominaga/posthtml-match-class/issues"
+	},
+	"license": "MIT",
+	"author": "Saeki Tominaga",
+	"files": [
+		"dist",
+		"src"
+	],
+	"type": "module",
+	"main": "dist/index.js",
+	"module": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SaekiTominaga/posthtml-match-class.git"
+	},
+	"scripts": {
+		"build": "tsc",
+		"watch": "tsc -w",
+		"test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --coverage"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^5.20.0",
+		"@typescript-eslint/parser": "^5.20.0",
+		"coveralls": "^3.1.1",
+		"cross-env": "^7.0.3",
+		"eslint": "^8.14.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-jest": "^26.1.5",
+		"eslint-plugin-jsdoc": "^39.2.8",
+		"jest": "^27.5.1",
+		"posthtml": "^0.16.6",
+		"typescript": "^4.6.3"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}
