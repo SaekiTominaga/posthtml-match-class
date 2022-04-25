@@ -101,11 +101,6 @@
 	"overrides": [
 		{
 			"files": ["*.js"],
-			"globals": {
-				"describe": "readonly",
-				"test": "readonly",
-				"expect": "readonly"
-			},
 			"plugins": ["jest"]
 		},
 		{

@@ -1,5 +1,6 @@
 import posthtml from 'posthtml';
 import PosthtmlClass from '../dist/index.js';
+import { describe, expect, test } from '@jest/globals';
 
 describe('contains()', () => {
 	const contains = () => {
